@@ -1,12 +1,12 @@
 from PIL import Image
 
 
-def redimensionar_imagem(caminho_imagem, largura, altura, caminho_saida):
+def resize_image(image_path, width, height, output_path):
     """
     Redimensiona uma imagem e salva o resultado.
     """
-    imagem = Image.open(caminho_imagem)
-    imagem_redimensionada = imagem.resize((largura, altura))
-    imagem_redimensionada.save(caminho_saida)
+    image = Image.open(image_path)
+    resized = image.resize((width, height))
+    resized.save(output_path)
 
-    return imagem_redimensionada
+    return resized
