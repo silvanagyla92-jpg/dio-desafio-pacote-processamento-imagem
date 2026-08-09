@@ -10,3 +10,4 @@ def resize_image(image_path, width, height, output_path):
     resized.save(output_path)
 
     return resized
+
