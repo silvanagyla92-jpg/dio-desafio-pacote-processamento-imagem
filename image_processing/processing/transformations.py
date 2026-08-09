@@ -1,6 +1,5 @@
 from PIL import Image
 
-
 def resize_image(image_path, width, height, output_path):
     """
     Resizes an image and saves the result.
