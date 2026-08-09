@@ -1,6 +1,5 @@
 import os
 
-
 def validate_image_path(image_path):
     """
     Verifica se o caminho da imagem existe.
